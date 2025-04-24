@@ -101,7 +101,7 @@ def show_main_ui():
             lbl.image = icon
             lbl.pack(side=tk.LEFT, padx=5)
 
-    # 主窗口设置
+    # mittefenster Einstellung
     root.deiconify()
     root.title("绝地遣兵武器选择辅助器")
     root.geometry("600x500")
@@ -145,7 +145,7 @@ def show_main_ui():
     ).pack(pady=10)
 
 
-# 启动程序入口
+# angang fur start program
 if __name__ == "__main__":
     root = tk.Tk()
     root.withdraw()
