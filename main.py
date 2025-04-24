@@ -7,13 +7,13 @@ import os
 # Relative path
 IMG_DIR = os.path.join(os.path.dirname(__file__), "images")
 
-# 加载图片函数
+# Laud Image Funktion
 def load_image(name, size):
     path = os.path.join(IMG_DIR, name)
     img = Image.open(path).resize(size)
     return ImageTk.PhotoImage(img)
 
-# 启动界面
+# Start Interface
 def show_start_screen():
     start = tk.Toplevel()
     start.title("绝地遣兵2 启动界面")
@@ -32,7 +32,7 @@ def show_start_screen():
     start_btn = tk.Button(start, text="进入武器选择辅助器", font=("Arial", 14), command=enter, bg="black", fg="white")
     start_btn.place(x=300, y=380, width=200, height=40)
 
-# 主界面
+# Mitte Interface
 def show_main_ui():
     global enemy_type, difficulty, result_label, image_frame, loading_label, enemy_img_label
 
