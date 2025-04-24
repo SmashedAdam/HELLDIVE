@@ -33,7 +33,7 @@ def show_start_screen():
 
     start_btn = tk.Button(
         start,
-        text="进入武器选择辅助器",
+        text="jetzt",
         font=("Arial", 14),
         command=enter,
         bg="black",
@@ -41,17 +41,18 @@ def show_start_screen():
     )
     start_btn.place(x=300, y=380, width=200, height=40)
 
+
 # Mitte Interface
 def show_main_ui():
     global enemy_type, difficulty, result_label, image_frame, loading_label, enemy_img_label
 
     def update_enemy_img(event=None):
         sel = enemy_type.get()
-        if sel == "蟲族":
+        if sel == "Terminiden":
             img = load_image("zerg.png", (150, 150))
-        elif sel == "机器人":
+        elif sel == "Roboter":
             img = load_image("robot.png", (150, 150))
-        elif sel == "光能族":
+        elif sel == "Illuminierten":
             img = load_image("energy.png", (150, 150))
         else:
             return
