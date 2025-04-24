@@ -65,11 +65,12 @@ def show_main_ui():
             diff = int(difficulty.get())
             if diff < 6:
                 messagebox.showwarning(
-                    "Der Schwierigkeitsgrad ist zu niedrig, keine passenden Vorschläge"
+                    title="WARNUNG",
+                    message="Der Schwierigkeitsgrad ist zu niedrig, keine passenden Vorschläge.",
                 )
                 return
         except ValueError:
-            messagebox.showerror("FEHLER: ungültige Nummer")
+            messagebox.showerror(title="FEHLER", message="FEHLER: ungültige Nummer")
             return
 
         loading_label.config(text="Analyse läuft...")
@@ -90,7 +91,7 @@ def show_main_ui():
             weapon_output = ["飞鹰机枪", "无后坐力炮", "类星体", "轨道毒气"]
             weapon_imgs = ["hawk.png", "recoiless.png", "quasar.png", "gas.png"]
         else:
-            result_label.config(text="未知敌人")
+            result_label.config(text="unbekannter Feind")
             return
 
         result_label.config(text="Empfohlene Waffen:\n" + ", ".join(weapon_output))
