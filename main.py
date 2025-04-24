@@ -104,11 +104,11 @@ def show_main_ui():
 
     # mittefenster Einstellung
     root.deiconify()
-    root.title("绝地遣兵武器选择辅助器")
+    root.title("helldive2waffenauswahlhilfsprogramm")
     root.geometry("600x500")
     root.configure(bg="black")
 
-    tk.Label(root, text="敌人类型：", bg="black", fg="white").pack(pady=(10, 0))
+    tk.Label(root, text="feindetyp：", bg="black", fg="white").pack(pady=(10, 0))
     enemy_type = ttk.Combobox(
         root, values=["Terminiden", "Roboter", "Illuminierten"], state="readonly"
     )
