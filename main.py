@@ -64,13 +64,15 @@ def show_main_ui():
         try:
             diff = int(difficulty.get())
             if diff < 6:
-                messagebox.showwarning("提示", "本辅助器不辅助1~5的残疾人")
+                messagebox.showwarning(
+                    "Der Schwierigkeitsgrad ist zu niedrig, keine passenden Vorschläge"
+                )
                 return
         except ValueError:
-            messagebox.showerror("错误", "请输入有效数字")
+            messagebox.showerror("FEHLER: ungültige Nummer")
             return
 
-        loading_label.config(text="分析中，请稍候...")
+        loading_label.config(text="Analyse läuft...")
         root.update()
         time.sleep(1)
         loading_label.config(text="")
@@ -91,7 +93,7 @@ def show_main_ui():
             result_label.config(text="未知敌人")
             return
 
-        result_label.config(text="推荐武器:\n" + ", ".join(weapon_output))
+        result_label.config(text="Empfohlene Waffen:\n" + ", ".join(weapon_output))
 
         for widget in image_frame.winfo_children():
             widget.destroy()
@@ -127,9 +129,9 @@ def show_main_ui():
     loading_label = tk.Label(root, text="", fg="yellow", bg="black")
     loading_label.pack()
 
-    tk.Button(root, text="jetzt analysieren...", command=on_submit, bg="green", fg="white").pack(
-        pady=10
-    )
+    tk.Button(
+        root, text="jetzt analysieren", command=on_submit, bg="green", fg="white"
+    ).pack(pady=10)
 
     result_label = tk.Label(root, text="", bg="black", fg="cyan", font=("Arial", 12))
     result_label.pack(pady=10)
