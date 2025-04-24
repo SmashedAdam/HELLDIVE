@@ -120,7 +120,7 @@ def show_main_ui():
     enemy_img_label.pack(pady=10)
     update_enemy_img()
 
-    tk.Label(root, text="难度（6~10）：", bg="black", fg="white").pack()
+    tk.Label(root, text="Schwierigkeitsstufe（6~10）：", bg="black", fg="white").pack()
     difficulty = tk.Entry(root)
     difficulty.pack()
 
