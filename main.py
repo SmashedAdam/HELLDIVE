@@ -103,7 +103,7 @@ def show_main_ui():
 
     # mittefenster Einstellung
     root.deiconify()
-    root.title("绝地遣兵武器选择辅助器")
+    root.title("helldive2waffenauswahlhilfsprogramm")
     root.geometry("600x500")
     root.configure(bg="black")
 
