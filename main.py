@@ -78,13 +78,13 @@ def show_main_ui():
         weapon_output = []
         weapon_imgs = []
 
-        if enemy == "蟲族":
+        if enemy == "Terminiden":
             weapon_output = ["盟友", "哨戒机枪", "轨道燃烧弹", "500kg炸弹"]
             weapon_imgs = ["friend.png", "gatling.png", "napalm.png", "bomb500.png"]
-        elif enemy == "机器人":
+        elif enemy == "Roboter":
             weapon_output = ["at炮台", "无后坐力炮", "轨道激光", "火箭炮台"]
             weapon_imgs = ["rocket.png", "recoiless.png", "laser.png", "huojian.png"]
-        elif enemy == "光能族":
+        elif enemy == "Illuminierten":
             weapon_output = ["飞鹰机枪", "无后坐力炮", "类星体", "轨道毒气"]
             weapon_imgs = ["hawk.png", "recoiless.png", "quasar.png", "gas.png"]
         else:
@@ -110,7 +110,7 @@ def show_main_ui():
 
     tk.Label(root, text="feindetyp：", bg="black", fg="white").pack(pady=(10, 0))
     enemy_type = ttk.Combobox(
-        root, values=["蟲族", "机器人", "光能族"], state="readonly"
+        root, values=["Terminiden", "Roboter", "Illuminierten"], state="readonly"
     )
     enemy_type.current(0)
     enemy_type.pack()
@@ -120,14 +120,14 @@ def show_main_ui():
     enemy_img_label.pack(pady=10)
     update_enemy_img()
 
-    tk.Label(root, text="Schwierigkeitsstufe（6~10）：", bg="black", fg="white").pack()
+    tk.Label(root, text="Schwierigkeit(6~10)：", bg="black", fg="white").pack()
     difficulty = tk.Entry(root)
     difficulty.pack()
 
     loading_label = tk.Label(root, text="", fg="yellow", bg="black")
     loading_label.pack()
 
-    tk.Button(root, text="开始分析", command=on_submit, bg="green", fg="white").pack(
+    tk.Button(root, text="jetzt analysieren...", command=on_submit, bg="green", fg="white").pack(
         pady=10
     )
 
@@ -139,7 +139,7 @@ def show_main_ui():
 
     tk.Button(
         root,
-        text="非常不感谢你的使用，退出",
+        text="Schließen",
         command=root.destroy,
         bg="red",
         fg="white",
