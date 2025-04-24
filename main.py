@@ -4,7 +4,7 @@ from PIL import Image, ImageTk
 import time
 import os
 
-# 全局路径配置
+# Relative path
 IMG_DIR = os.path.join(os.path.dirname(__file__), "images")
 
 # 加载图片函数
