@@ -7,16 +7,18 @@ import os
 # Relative path
 IMG_DIR = os.path.join(os.path.dirname(__file__), "images")
 
-# Laud Image Funktion
+
+# Eine Funktion für das Laden von Bildern
 def load_image(name, size):
     path = os.path.join(IMG_DIR, name)
     img = Image.open(path).resize(size)
     return ImageTk.PhotoImage(img)
 
-# Start Interface
+
+# Titelbildschirm
 def show_start_screen():
     start = tk.Toplevel()
-    start.title("绝地遣兵2 启动界面")
+    start.title("Helldivers 2-Ausrüstungshelfer")
     start.geometry("800x450")
     start.resizable(False, False)
 
@@ -29,7 +31,14 @@ def show_start_screen():
         start.destroy()
         show_main_ui()
 
-    start_btn = tk.Button(start, text="进入武器选择辅助器", font=("Arial", 14), command=enter, bg="black", fg="white")
+    start_btn = tk.Button(
+        start,
+        text="进入武器选择辅助器",
+        font=("Arial", 14),
+        command=enter,
+        bg="black",
+        fg="white",
+    )
     start_btn.place(x=300, y=380, width=200, height=40)
 
 # Mitte Interface
@@ -99,7 +108,9 @@ def show_main_ui():
     root.configure(bg="black")
 
     tk.Label(root, text="敌人类型：", bg="black", fg="white").pack(pady=(10, 0))
-    enemy_type = ttk.Combobox(root, values=["蟲族", "机器人", "光能族"], state="readonly")
+    enemy_type = ttk.Combobox(
+        root, values=["蟲族", "机器人", "光能族"], state="readonly"
+    )
     enemy_type.current(0)
     enemy_type.pack()
     enemy_type.bind("<<ComboboxSelected>>", update_enemy_img)
@@ -115,7 +126,9 @@ def show_main_ui():
     loading_label = tk.Label(root, text="", fg="yellow", bg="black")
     loading_label.pack()
 
-    tk.Button(root, text="开始分析", command=on_submit, bg="green", fg="white").pack(pady=10)
+    tk.Button(root, text="开始分析", command=on_submit, bg="green", fg="white").pack(
+        pady=10
+    )
 
     result_label = tk.Label(root, text="", bg="black", fg="cyan", font=("Arial", 12))
     result_label.pack(pady=10)
@@ -123,7 +136,14 @@ def show_main_ui():
     image_frame = tk.Frame(root, bg="black")
     image_frame.pack(pady=5)
 
-    tk.Button(root, text="非常不感谢你的使用，退出", command=root.destroy, bg="red", fg="white").pack(pady=10)
+    tk.Button(
+        root,
+        text="非常不感谢你的使用，退出",
+        command=root.destroy,
+        bg="red",
+        fg="white",
+    ).pack(pady=10)
+
 
 # 启动程序入口
 if __name__ == "__main__":
