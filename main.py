@@ -108,7 +108,7 @@ def show_main_ui():
     root.geometry("600x500")
     root.configure(bg="black")
 
-    tk.Label(root, text="敌人类型：", bg="black", fg="white").pack(pady=(10, 0))
+    tk.Label(root, text="feindetyp：", bg="black", fg="white").pack(pady=(10, 0))
     enemy_type = ttk.Combobox(
         root, values=["蟲族", "机器人", "光能族"], state="readonly"
     )
