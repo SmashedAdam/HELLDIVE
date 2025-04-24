@@ -91,7 +91,7 @@ def show_main_ui():
             result_label.config(text="未知敌人")
             return
 
-        result_label.config(text="推荐武器：\n" + ", ".join(weapon_output))
+        result_label.config(text="推荐武器:\n" + ", ".join(weapon_output))
 
         for widget in image_frame.winfo_children():
             widget.destroy()
@@ -108,7 +108,7 @@ def show_main_ui():
     root.geometry("600x500")
     root.configure(bg="black")
 
-    tk.Label(root, text="feindetyp：", bg="black", fg="white").pack(pady=(10, 0))
+    tk.Label(root, text="feindetyp:", bg="black", fg="white").pack(pady=(10, 0))
     enemy_type = ttk.Combobox(
         root, values=["Terminiden", "Roboter", "Illuminierten"], state="readonly"
     )
@@ -120,7 +120,7 @@ def show_main_ui():
     enemy_img_label.pack(pady=10)
     update_enemy_img()
 
-    tk.Label(root, text="Schwierigkeit(6~10)：", bg="black", fg="white").pack()
+    tk.Label(root, text="Schwierigkeit(6~10):", bg="black", fg="white").pack()
     difficulty = tk.Entry(root)
     difficulty.pack()
 
