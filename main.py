@@ -83,13 +83,33 @@ def show_main_ui():
 
         if enemy == "Terminiden":
             weapon_output = ["盟友", "哨戒机枪", "轨道燃烧弹", "500kg炸弹"]
-            weapon_imgs = ["friend.png", "gatling.png", "napalm.png", "bomb500.png"]
+            weapon_imgs = [
+                "stalwart.png",
+                "Maschinengewehr-Geschütz.png",
+                "napalm.png",
+                "bomb500.png",
+            ]
         elif enemy == "Roboter":
             weapon_output = ["at炮台", "无后坐力炮", "轨道激光", "火箭炮台"]
-            weapon_imgs = ["rocket.png", "recoiless.png", "laser.png", "huojian.png"]
+            weapon_imgs = [
+                "ATEmplacement.png",
+                "recoiless.png",
+                "OrbitalLaser.png",
+                "RKTSentry.png",
+            ]
         elif enemy == "Illuminierten":
-            weapon_output = ["飞鹰机枪", "无后坐力炮", "类星体", "轨道毒气"]
-            weapon_imgs = ["hawk.png", "recoiless.png", "quasar.png", "gas.png"]
+            weapon_output = [
+                "Adler-Tieffliegerangriff",
+                "无后坐力炮",
+                "类星体",
+                "轨道毒气",
+            ]
+            weapon_imgs = [
+                "Adler-Tieffliegerangriff.png",
+                "recoiless.png",
+                "quasar.png",
+                "gas.png",
+            ]
         else:
             result_label.config(text="unbekannter Feind")
             return
