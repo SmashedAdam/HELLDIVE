@@ -33,13 +33,13 @@ def show_start_screen():
 
     start_btn = tk.Button(
         start,
-        text="jetzt",
+        text="Auswahlassistent starten",
         font=("Arial", 14),
         command=enter,
         bg="black",
         fg="white",
     )
-    start_btn.place(x=300, y=380, width=200, height=40)
+    start_btn.place(x=280, y=380, width=220, height=40)
 
 
 # Mitte Interface
