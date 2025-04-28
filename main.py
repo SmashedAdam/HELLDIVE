@@ -46,7 +46,7 @@ def show_start_screen():
 def show_main_ui():
     global enemy_type, difficulty, result_label, image_frame, loading_label, enemy_img_label
 
-    def update_enemy_img(event=None):
+    def update_enemy_img():
         sel = enemy_type.get()
         if sel == "Terminiden":
             img = load_image("zerg.png", (150, 150))
