@@ -82,7 +82,12 @@ def show_main_ui():
         weapon_imgs = []
 
         if enemy == "Terminiden":
-            weapon_output = ["盟友", "哨戒机枪", "轨道燃烧弹", "500kg炸弹"]
+            weapon_output = [
+                "STALWART",
+                "MG-Geschütz",
+                "Napalm-Orbitalsperrfeuer",
+                "ADLER-500KG-Bombe",
+            ]
             weapon_imgs = [
                 "stalwart.png",
                 "Maschinengewehr-Geschütz.png",
@@ -90,7 +95,12 @@ def show_main_ui():
                 "bomb500.png",
             ]
         elif enemy == "Roboter":
-            weapon_output = ["at炮台", "无后坐力炮", "轨道激光", "火箭炮台"]
+            weapon_output = [
+                "Panzerabwehrstellung",
+                "rückstossfreies Gewehr",
+                "Orbital-Laser",
+                "Raketengeschütz",
+            ]
             weapon_imgs = [
                 "ATEmplacement.png",
                 "recoiless.png",
@@ -100,9 +110,9 @@ def show_main_ui():
         elif enemy == "Illuminierten":
             weapon_output = [
                 "Adler-Tieffliegerangriff",
-                "无后坐力炮",
-                "类星体",
-                "轨道毒气",
+                "rückstossfreies Gewehr",
+                "Quasarkanone",
+                "Orbital-Gasangriff",
             ]
             weapon_imgs = [
                 "Adler-Tieffliegerangriff.png",
