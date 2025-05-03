@@ -10,7 +10,7 @@ import yaml
 
 
 # logging:
-logging.basicConfig(filename="./log.log", level=logging.DEBUG, format='%(asctime)s:%(levelname)s:%(message)s')
+logging.basicConfig(filename="./log.log", level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
 logging.info("Programm gestartet")
 
 
@@ -22,6 +22,7 @@ IMG_DIR = os.path.join(os.path.dirname(__file__), "images")
 def load_image(name, size):
     path = os.path.join(IMG_DIR, name)
     img = Image.open(path).resize(size)
+    logging.info(f"""Bild geladen: {path}""")
     return ImageTk.PhotoImage(img)
 
 
@@ -50,12 +51,13 @@ def show_start_screen():
         fg="white",
     )
     start_btn.place(x=280, y=380, width=220, height=40)
+    logging.info("Start-UI zeigten")
 
 
 # Mitte Interface
 def show_main_ui():
     global enemy_type, difficulty, result_label, image_frame, loading_label, enemy_img_label
-
+    logging.info("Main-UI wird gezeigt")
     def update_enemy_img():
         sel = enemy_type.get()
         if sel == "Terminiden":
@@ -68,6 +70,7 @@ def show_main_ui():
             return
         enemy_img_label.config(image=img)
         enemy_img_label.image = img
+        logging.info("Feind auswählten")
 
     def on_submit():
         enemy = enemy_type.get()
