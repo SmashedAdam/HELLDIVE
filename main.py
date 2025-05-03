@@ -165,7 +165,7 @@ def show_main_ui():
 
     # mittefenster Einstellung
     root.deiconify()
-    root.title("helldive2waffenauswahlhilfsprogramm")
+    root.title("Helldivers 2-Ausrüstungshelfer")
     root.geometry("600x600")
     root.configure(bg="black")
 
