@@ -4,13 +4,17 @@ from PIL import Image, ImageTk
 import time
 import os
 
-#TODO: implement V2: logging + config
+# TODO: implement V2: logging + config
 import logging
 import yaml
 
 
 # logging:
-logging.basicConfig(filename="./log.log", level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
+logging.basicConfig(
+    filename="./log.log",
+    level=logging.INFO,
+    format="%(asctime)s:%(levelname)s:%(message)s",
+)
 logging.info("Programm gestartet")
 
 
@@ -58,6 +62,7 @@ def show_start_screen():
 def show_main_ui():
     global enemy_type, difficulty, result_label, image_frame, loading_label, enemy_img_label
     logging.info("Main-UI wird gezeigt")
+
     def update_enemy_img(event=None):
         sel = enemy_type.get()
         if sel == "Terminiden":
@@ -77,12 +82,21 @@ def show_main_ui():
         try:
             diff = int(difficulty.get())
             if diff < 6:
+                logging.warning("Schwierigkeitsgrad zu niedrig")
                 messagebox.showwarning(
                     title="WARNUNG",
                     message="Der Schwierigkeitsgrad ist zu niedrig, keine passenden Vorschläge.",
                 )
                 return
+            elif diff > 10:
+                logging.warning("Schwierigkeitsgrad zu hoch")
+                messagebox.showwarning(
+                    title="WARNUNG",
+                    message="Der Schwierigkeitsgrad ist nicht verfugbar in dem Spiel.",
+                )
+                return
         except ValueError:
+            logging.error("FEHLER: ungültige Nummer")
             messagebox.showerror(title="FEHLER", message="FEHLER: ungültige Nummer")
             return
 
@@ -135,6 +149,7 @@ def show_main_ui():
             ]
         else:
             result_label.config(text="unbekannter Feind")
+            logging.error("unbekannter Feind")
             return
 
         result_label.config(text="Empfohlene Waffen:\n" + ", ".join(weapon_output))
