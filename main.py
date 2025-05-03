@@ -4,6 +4,11 @@ from PIL import Image, ImageTk
 import time
 import os
 
+#TODO: implement V2: logging + config
+import logging
+import yaml
+
+
 # Relative path
 IMG_DIR = os.path.join(os.path.dirname(__file__), "images")
 
