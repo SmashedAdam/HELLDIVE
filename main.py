@@ -9,6 +9,11 @@ import logging
 import yaml
 
 
+# logging:
+logging.basicConfig(filename="./log.log", level=logging.DEBUG, format='%(asctime)s:%(levelname)s:%(message)s')
+logging.info("Programm gestartet")
+
+
 # Relative path
 IMG_DIR = os.path.join(os.path.dirname(__file__), "images")
 
@@ -143,7 +148,7 @@ def show_main_ui():
     # mittefenster Einstellung
     root.deiconify()
     root.title("helldive2waffenauswahlhilfsprogramm")
-    root.geometry("600x500")
+    root.geometry("600x600")
     root.configure(bg="black")
 
     tk.Label(root, text="feindetyp:", bg="black", fg="white").pack(pady=(10, 0))
