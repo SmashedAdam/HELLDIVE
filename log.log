@@ -77,3 +77,33 @@
 2025-05-03 12:55:29,069:DEBUG:STREAM b'gAMA' 54 4
 2025-05-03 12:55:29,069:DEBUG:STREAM b'pHYs' 70 9
 2025-05-03 12:55:29,069:DEBUG:STREAM b'IDAT' 91 3767
+2025-05-03 15:12:15,442:INFO:Programm gestartet
+2025-05-03 15:12:15,567:INFO:Bild geladen: f:\developers\HELLDIVE\images\start_bg.jpeg
+2025-05-03 15:12:15,584:INFO:Start-UI zeigten
+2025-05-03 15:12:16,709:INFO:Main-UI wird gezeigt
+2025-05-03 15:12:16,756:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-03 15:12:16,769:INFO:Feind auswählten
+2025-05-03 15:12:17,419:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-03 15:12:17,419:INFO:Feind auswählten
+2025-05-03 15:12:17,470:INFO:Bild geladen: f:\developers\HELLDIVE\images\energy.png
+2025-05-03 15:12:17,470:INFO:Feind auswählten
+2025-05-03 15:12:17,866:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-03 15:12:17,867:INFO:Feind auswählten
+2025-05-03 15:12:18,121:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-03 15:12:18,122:INFO:Feind auswählten
+2025-05-03 15:12:18,285:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-03 15:12:18,286:INFO:Feind auswählten
+2025-05-03 15:12:18,314:INFO:Bild geladen: f:\developers\HELLDIVE\images\energy.png
+2025-05-03 15:12:18,315:INFO:Feind auswählten
+2025-05-03 15:12:18,437:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-03 15:12:18,437:INFO:Feind auswählten
+2025-05-03 15:12:18,449:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-03 15:12:18,449:INFO:Feind auswählten
+2025-05-03 15:12:18,669:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-03 15:12:18,669:INFO:Feind auswählten
+2025-05-03 15:12:18,694:INFO:Bild geladen: f:\developers\HELLDIVE\images\energy.png
+2025-05-03 15:12:18,695:INFO:Feind auswählten
+2025-05-03 15:12:18,763:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-03 15:12:18,763:INFO:Feind auswählten
+2025-05-03 15:12:18,772:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-03 15:12:18,773:INFO:Feind auswählten
