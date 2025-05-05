@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 from PIL import Image, ImageTk
 import time
-import os
+import os.path
 
 
 import logging
@@ -169,7 +169,7 @@ def show_main_ui():
     root.geometry("600x600")
     root.configure(bg="black")
 
-    tk.Label(root, text="feindetyp:", bg="black", fg="white").pack(pady=(10, 0))
+    tk.Label(root, text="feindetyp:", bg="black", fg="white", font=14).pack(pady=(10, 0))
     enemy_type = ttk.Combobox(
         root, values=["Terminiden", "Roboter", "Illuminierten"], state="readonly"
     )
@@ -181,7 +181,7 @@ def show_main_ui():
     enemy_img_label.pack(pady=10)
     update_enemy_img()
 
-    tk.Label(root, text="Schwierigkeit(6~10):", bg="black", fg="white").pack()
+    tk.Label(root, text="Schwierigkeit(6~10):", bg="black", fg="white", font=14).pack()
     difficulty = tk.Entry(root)
     difficulty.pack()
 
@@ -189,10 +189,10 @@ def show_main_ui():
     loading_label.pack()
 
     tk.Button(
-        root, text="jetzt analysieren", command=on_submit, bg="green", fg="white"
+        root, text="jetzt analysieren", command=on_submit, bg="green", fg="white", font=14
     ).pack(pady=10)
 
-    result_label = tk.Label(root, text="", bg="black", fg="cyan", font=("Arial", 12))
+    result_label = tk.Label(root, text="", bg="black", fg="cyan", font=("Arial", 14))
     result_label.pack(pady=10)
 
     image_frame = tk.Frame(root, bg="black")
@@ -204,6 +204,7 @@ def show_main_ui():
         command=root.destroy,
         bg="red",
         fg="white",
+        font=14
     ).pack(pady=10)
 
 
