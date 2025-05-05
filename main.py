@@ -4,9 +4,9 @@ from PIL import Image, ImageTk
 import time
 import os
 
-# TODO: implement config
+
 import logging
-import yaml
+
 
 
 # logging:
