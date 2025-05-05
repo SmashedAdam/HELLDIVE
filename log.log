@@ -77,3 +77,188 @@
 2025-05-03 12:55:29,069:DEBUG:STREAM b'gAMA' 54 4
 2025-05-03 12:55:29,069:DEBUG:STREAM b'pHYs' 70 9
 2025-05-03 12:55:29,069:DEBUG:STREAM b'IDAT' 91 3767
+2025-05-03 15:12:15,442:INFO:Programm gestartet
+2025-05-03 15:12:15,567:INFO:Bild geladen: f:\developers\HELLDIVE\images\start_bg.jpeg
+2025-05-03 15:12:15,584:INFO:Start-UI zeigten
+2025-05-03 15:12:16,709:INFO:Main-UI wird gezeigt
+2025-05-03 15:12:16,756:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-03 15:12:16,769:INFO:Feind auswählten
+2025-05-03 15:12:17,419:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-03 15:12:17,419:INFO:Feind auswählten
+2025-05-03 15:12:17,470:INFO:Bild geladen: f:\developers\HELLDIVE\images\energy.png
+2025-05-03 15:12:17,470:INFO:Feind auswählten
+2025-05-03 15:12:17,866:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-03 15:12:17,867:INFO:Feind auswählten
+2025-05-03 15:12:18,121:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-03 15:12:18,122:INFO:Feind auswählten
+2025-05-03 15:12:18,285:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-03 15:12:18,286:INFO:Feind auswählten
+2025-05-03 15:12:18,314:INFO:Bild geladen: f:\developers\HELLDIVE\images\energy.png
+2025-05-03 15:12:18,315:INFO:Feind auswählten
+2025-05-03 15:12:18,437:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-03 15:12:18,437:INFO:Feind auswählten
+2025-05-03 15:12:18,449:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-03 15:12:18,449:INFO:Feind auswählten
+2025-05-03 15:12:18,669:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-03 15:12:18,669:INFO:Feind auswählten
+2025-05-03 15:12:18,694:INFO:Bild geladen: f:\developers\HELLDIVE\images\energy.png
+2025-05-03 15:12:18,695:INFO:Feind auswählten
+2025-05-03 15:12:18,763:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-03 15:12:18,763:INFO:Feind auswählten
+2025-05-03 15:12:18,772:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-03 15:12:18,773:INFO:Feind auswählten
+2025-05-03 15:25:52,296:INFO:Programm gestartet
+2025-05-03 15:25:52,428:INFO:Bild geladen: f:\developers\HELLDIVE\images\start_bg.jpeg
+2025-05-03 15:25:52,439:INFO:Start-UI zeigten
+2025-05-03 15:25:53,479:INFO:Main-UI wird gezeigt
+2025-05-03 15:25:53,527:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-03 15:25:53,546:INFO:Feind auswählten
+2025-05-03 15:25:54,840:WARNING:Schwierigkeitsgrad zu niedrig
+2025-05-03 15:25:55,861:INFO:Bild geladen: f:\developers\HELLDIVE\images\stalwart.png
+2025-05-03 15:25:55,863:INFO:Bild geladen: f:\developers\HELLDIVE\images\Maschinengewehr-Geschütz.png
+2025-05-03 15:25:55,864:INFO:Bild geladen: f:\developers\HELLDIVE\images\napalm.png
+2025-05-03 15:25:55,864:INFO:Bild geladen: f:\developers\HELLDIVE\images\bomb500.png
+2025-05-03 15:26:56,212:INFO:Programm gestartet
+2025-05-03 15:26:56,340:INFO:Bild geladen: f:\developers\HELLDIVE\images\start_bg.jpeg
+2025-05-03 15:26:56,357:INFO:Start-UI zeigten
+2025-05-03 15:26:57,313:INFO:Main-UI wird gezeigt
+2025-05-03 15:26:57,432:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-03 15:26:57,448:INFO:Feind auswählten
+2025-05-03 15:26:59,158:WARNING:Schwierigkeitsgrad zu hoch
+2025-05-03 15:27:01,337:WARNING:Schwierigkeitsgrad zu hoch
+2025-05-03 15:27:30,154:INFO:Programm gestartet
+2025-05-03 15:27:30,271:INFO:Bild geladen: f:\developers\HELLDIVE\images\start_bg.jpeg
+2025-05-03 15:27:30,284:INFO:Start-UI zeigten
+2025-05-03 15:27:31,188:INFO:Main-UI wird gezeigt
+2025-05-03 15:27:31,233:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-03 15:27:31,241:INFO:Feind auswählten
+2025-05-03 15:27:33,470:INFO:Bild geladen: f:\developers\HELLDIVE\images\stalwart.png
+2025-05-03 15:27:33,472:INFO:Bild geladen: f:\developers\HELLDIVE\images\Maschinengewehr-Geschütz.png
+2025-05-03 15:27:33,472:INFO:Bild geladen: f:\developers\HELLDIVE\images\napalm.png
+2025-05-03 15:27:33,473:INFO:Bild geladen: f:\developers\HELLDIVE\images\bomb500.png
+2025-05-03 15:28:48,462:INFO:Programm gestartet
+2025-05-03 15:28:48,573:INFO:Bild geladen: f:\developers\HELLDIVE\images\start_bg.jpeg
+2025-05-03 15:28:48,584:INFO:Start-UI zeigten
+2025-05-03 15:28:49,986:INFO:Main-UI wird gezeigt
+2025-05-03 15:28:50,034:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-03 15:28:50,042:INFO:Feind auswählten
+2025-05-03 15:28:51,405:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-03 15:28:51,406:INFO:Feind auswählten
+2025-05-03 15:28:51,455:INFO:Bild geladen: f:\developers\HELLDIVE\images\energy.png
+2025-05-03 15:28:51,455:INFO:Feind auswählten
+2025-05-03 15:28:51,724:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-03 15:28:51,725:INFO:Feind auswählten
+2025-05-03 15:28:51,760:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-03 15:28:51,761:INFO:Feind auswählten
+2025-05-03 15:28:52,155:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-03 15:28:52,156:INFO:Feind auswählten
+2025-05-03 15:28:54,569:WARNING:Schwierigkeitsgrad zu niedrig
+2025-05-03 15:29:06,766:WARNING:Schwierigkeitsgrad zu hoch
+2025-05-03 15:43:08,789:INFO:Programm gestartet
+2025-05-03 15:43:08,911:INFO:Bild geladen: f:\developers\HELLDIVE\images\start_bg.jpeg
+2025-05-03 15:43:08,922:INFO:Start-UI zeigten
+2025-05-03 15:44:31,971:INFO:Programm gestartet
+2025-05-03 15:44:32,089:INFO:Bild geladen: f:\developers\HELLDIVE\images\start_bg.jpeg
+2025-05-03 15:44:32,102:INFO:Start-UI zeigten
+2025-05-03 15:44:34,040:INFO:Main-UI wird gezeigt
+2025-05-03 15:44:34,077:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-03 15:44:34,085:INFO:Feind auswählten
+2025-05-03 15:46:14,041:INFO:Bild geladen: f:\developers\HELLDIVE\images\stalwart.png
+2025-05-03 15:46:14,043:INFO:Bild geladen: f:\developers\HELLDIVE\images\Maschinengewehr-Geschütz.png
+2025-05-03 15:46:14,044:INFO:Bild geladen: f:\developers\HELLDIVE\images\napalm.png
+2025-05-03 15:46:14,044:INFO:Bild geladen: f:\developers\HELLDIVE\images\bomb500.png
+2025-05-05 16:41:04,364:INFO:Programm gestartet
+2025-05-05 16:41:04,939:INFO:Bild geladen: f:\developers\HELLDIVE\images\start_bg.jpeg
+2025-05-05 16:41:04,958:INFO:Start-UI zeigten
+2025-05-05 16:41:09,271:INFO:Main-UI wird gezeigt
+2025-05-05 16:41:09,320:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-05 16:41:09,325:INFO:Feind auswählten
+2025-05-05 16:41:59,884:WARNING:Schwierigkeitsgrad zu hoch
+2025-05-05 16:42:08,698:WARNING:Schwierigkeitsgrad zu hoch
+2025-05-05 16:42:25,171:INFO:Programm gestartet
+2025-05-05 16:42:25,311:INFO:Bild geladen: f:\developers\HELLDIVE\images\start_bg.jpeg
+2025-05-05 16:42:25,324:INFO:Start-UI zeigten
+2025-05-05 16:46:26,286:INFO:Programm gestartet
+2025-05-05 16:46:26,403:INFO:Bild geladen: f:\developers\HELLDIVE\images\start_bg.jpeg
+2025-05-05 16:46:26,414:INFO:Start-UI zeigten
+2025-05-05 16:46:28,574:INFO:Main-UI wird gezeigt
+2025-05-05 16:46:28,629:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-05 16:46:28,644:INFO:Feind auswählten
+2025-05-05 16:46:30,701:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-05 16:46:30,702:INFO:Feind auswählten
+2025-05-05 16:46:31,039:INFO:Bild geladen: f:\developers\HELLDIVE\images\energy.png
+2025-05-05 16:46:31,039:INFO:Feind auswählten
+2025-05-05 16:46:33,843:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-05 16:46:33,844:INFO:Feind auswählten
+2025-05-05 16:46:34,367:INFO:Bild geladen: f:\developers\HELLDIVE\images\energy.png
+2025-05-05 16:46:34,368:INFO:Feind auswählten
+2025-05-05 16:46:36,079:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-05 16:46:36,080:INFO:Feind auswählten
+2025-05-05 16:46:36,616:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-05 16:46:36,617:INFO:Feind auswählten
+2025-05-05 16:46:37,900:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-05 16:46:37,901:INFO:Feind auswählten
+2025-05-05 16:46:38,044:INFO:Bild geladen: f:\developers\HELLDIVE\images\energy.png
+2025-05-05 16:46:38,044:INFO:Feind auswählten
+2025-05-05 16:46:38,474:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-05 16:46:38,475:INFO:Feind auswählten
+2025-05-05 16:46:38,528:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-05 16:46:38,528:INFO:Feind auswählten
+2025-05-05 16:46:38,740:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-05 16:46:38,741:INFO:Feind auswählten
+2025-05-05 16:46:38,773:INFO:Bild geladen: f:\developers\HELLDIVE\images\energy.png
+2025-05-05 16:46:38,774:INFO:Feind auswählten
+2025-05-05 16:46:39,528:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-05 16:46:39,528:INFO:Feind auswählten
+2025-05-05 16:46:39,548:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-05 16:46:39,549:INFO:Feind auswählten
+2025-05-05 16:46:39,712:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-05 16:46:39,713:INFO:Feind auswählten
+2025-05-05 16:46:39,731:INFO:Bild geladen: f:\developers\HELLDIVE\images\energy.png
+2025-05-05 16:46:39,732:INFO:Feind auswählten
+2025-05-05 16:46:40,012:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-05 16:46:40,013:INFO:Feind auswählten
+2025-05-05 16:46:40,022:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-05 16:46:40,022:INFO:Feind auswählten
+2025-05-05 16:46:40,573:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-05 16:46:40,574:INFO:Feind auswählten
+2025-05-05 16:46:41,149:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-05 16:46:41,149:INFO:Feind auswählten
+2025-05-05 16:46:42,056:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-05 16:46:42,057:INFO:Feind auswählten
+2025-05-05 16:46:42,356:INFO:Bild geladen: f:\developers\HELLDIVE\images\energy.png
+2025-05-05 16:46:42,357:INFO:Feind auswählten
+2025-05-05 16:46:42,947:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-05 16:46:42,947:INFO:Feind auswählten
+2025-05-05 16:46:42,967:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-05 16:46:42,968:INFO:Feind auswählten
+2025-05-05 16:46:43,169:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-05 16:46:43,169:INFO:Feind auswählten
+2025-05-05 16:46:43,203:INFO:Bild geladen: f:\developers\HELLDIVE\images\energy.png
+2025-05-05 16:46:43,204:INFO:Feind auswählten
+2025-05-05 16:46:43,442:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-05 16:46:43,442:INFO:Feind auswählten
+2025-05-05 16:46:43,446:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-05 16:46:43,446:INFO:Feind auswählten
+2025-05-05 16:46:43,695:INFO:Bild geladen: f:\developers\HELLDIVE\images\robot.png
+2025-05-05 16:46:43,695:INFO:Feind auswählten
+2025-05-05 16:46:43,716:INFO:Bild geladen: f:\developers\HELLDIVE\images\energy.png
+2025-05-05 16:46:43,716:INFO:Feind auswählten
+2025-05-05 16:47:40,452:INFO:Programm gestartet
+2025-05-05 16:47:40,582:INFO:Bild geladen: f:\developers\HELLDIVE\images\start_bg.jpeg
+2025-05-05 16:47:40,609:INFO:Start-UI zeigten
+2025-05-05 16:47:41,499:INFO:Main-UI wird gezeigt
+2025-05-05 16:47:41,554:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-05 16:47:41,569:INFO:Feind auswählten
+2025-05-05 16:48:24,525:INFO:Programm gestartet
+2025-05-05 16:48:24,654:INFO:Bild geladen: f:\developers\HELLDIVE\images\start_bg.jpeg
+2025-05-05 16:48:24,668:INFO:Start-UI zeigten
+2025-05-05 16:48:25,546:INFO:Main-UI wird gezeigt
+2025-05-05 16:48:25,598:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-05 16:48:25,610:INFO:Feind auswählten
+2025-05-05 16:48:58,786:INFO:Programm gestartet
+2025-05-05 16:48:58,910:INFO:Bild geladen: f:\developers\HELLDIVE\images\start_bg.jpeg
+2025-05-05 16:48:58,927:INFO:Start-UI zeigten
+2025-05-05 16:49:02,085:INFO:Main-UI wird gezeigt
+2025-05-05 16:49:02,128:INFO:Bild geladen: f:\developers\HELLDIVE\images\zerg.png
+2025-05-05 16:49:02,136:INFO:Feind auswählten
