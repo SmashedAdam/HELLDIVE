@@ -8,7 +8,6 @@ import os.path
 import logging
 
 
-
 # logging:
 logging.basicConfig(
     filename="./log.log",
@@ -110,7 +109,7 @@ def show_main_ui():
 
         if enemy == "Terminiden":
             weapon_output = [
-                "STALWART",
+                "Stalwart",
                 "MG-Geschütz",
                 "Napalm-Orbitalsperrfeuer",
                 "ADLER-500KG-Bombe",
@@ -166,10 +165,12 @@ def show_main_ui():
     # mittefenster Einstellung
     root.deiconify()
     root.title("Helldivers 2-Ausrüstungshelfer")
-    root.geometry("600x600")
+    root.geometry("700x600")
     root.configure(bg="black")
 
-    tk.Label(root, text="feindetyp:", bg="black", fg="white", font=14).pack(pady=(10, 0))
+    tk.Label(root, text="feindetyp:", bg="black", fg="white", font=14).pack(
+        pady=(10, 0)
+    )
     enemy_type = ttk.Combobox(
         root, values=["Terminiden", "Roboter", "Illuminierten"], state="readonly"
     )
@@ -189,7 +190,12 @@ def show_main_ui():
     loading_label.pack()
 
     tk.Button(
-        root, text="jetzt analysieren", command=on_submit, bg="green", fg="white", font=14
+        root,
+        text="jetzt analysieren",
+        command=on_submit,
+        bg="green",
+        fg="white",
+        font=14,
     ).pack(pady=10)
 
     result_label = tk.Label(root, text="", bg="black", fg="cyan", font=("Arial", 14))
@@ -199,12 +205,7 @@ def show_main_ui():
     image_frame.pack(pady=5)
 
     tk.Button(
-        root,
-        text="Schließen",
-        command=root.destroy,
-        bg="red",
-        fg="white",
-        font=14
+        root, text="Schließen", command=root.destroy, bg="red", fg="white", font=14
     ).pack(pady=10)
 
 
