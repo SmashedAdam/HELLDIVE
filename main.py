@@ -168,7 +168,7 @@ def show_main_ui():
     root.geometry("700x600")
     root.configure(bg="black")
 
-    tk.Label(root, text="feindetyp:", bg="black", fg="white", font=14).pack(
+    tk.Label(root, text="Feindetyp:", bg="black", fg="white", font=14).pack(
         pady=(10, 0)
     )
     enemy_type = ttk.Combobox(
