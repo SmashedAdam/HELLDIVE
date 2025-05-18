@@ -37,7 +37,7 @@ def loadLoadout(loadoutLocation):
     return Ladeauswahl
 
 
-def giveAdvice(diff, faction):
+def giveAdvice(diff, faction, conf=loadConfig(), loadout=loadLoadout()):
     """Schwierigkeitsgrad und Fraktion eingeben, empfohlene Ausrüstung zurückgeben
 
     Args:
