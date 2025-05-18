@@ -1,0 +1,18 @@
+Terminiden:
+  Terminiden1:
+    weapon1: "Stalwart"
+    weapon2: "MG-Geschütz"
+    weapon3: "Napalm-Oribitalsperrfeuer"
+    weapon4: "ADLER-500KG-Bombe"
+Roboter:
+  Roboter1: 
+    weapon1: "Panzerabwehrstellung"
+    weapon2: "rückstossfreies Gewehr"
+    weapon3: "Orbital-Laser"
+    weapon4: "Raketengeschütz"
+Illuminierten:
+  Illuminierten1:
+    weapon1: "Adler-Tieffliegerangriff"
+    weapon2: "rückstossfreies Gewehr"
+    weapon3: "Quasarkanone"
+    weapon4: "Orbital-Gasangriff"

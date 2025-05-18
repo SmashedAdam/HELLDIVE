@@ -1,0 +1,4 @@
+# Modus: CLI oder GUI
+mode : "CLI"
+faction : ["Terminiden", "Roboter", "Illuminierten"]
+minDiff: 6
