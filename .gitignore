@@ -2,3 +2,4 @@
 ~$lldivers2_Mithelfer.docx
 ai_output.txt
 *.tmp
+__pycache__

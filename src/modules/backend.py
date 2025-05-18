@@ -5,13 +5,7 @@
 
 import yaml
 import logging
-import os
 
-
-# get the correct path
-absPathRoot = os.getcwd()
-loadoutPath = os.path.join(absPathRoot, "loadout")
-configPath = os.path.join(absPathRoot, "config")
 
 
 # config logging
@@ -37,7 +31,7 @@ def loadLoadout(loadoutLocation):
     return Ladeauswahl
 
 
-def giveAdvice(diff, faction, conf=loadConfig(), loadout=loadLoadout()):
+def giveAdvice(diff, faction, confLoc, loadoutLoc):
     """Schwierigkeitsgrad und Fraktion eingeben, empfohlene Ausrüstung zurückgeben
 
     Args:
@@ -47,7 +41,8 @@ def giveAdvice(diff, faction, conf=loadConfig(), loadout=loadLoadout()):
     Returns:
        dict : ein Wörterbuch, das 4 Ausstattungsoptionen enthält
     """
-
+    conf = loadConfig(confLoc)
+    loadout = loadLoadout(loadoutLoc)
     if diff > conf["minDiff"]:  # Schwerigkeit muss größer als minDiff
         if faction in conf["faction"]:
             advice = loadout[faction][f"{faction}1"]
