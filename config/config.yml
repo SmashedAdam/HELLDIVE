@@ -1,3 +1,2 @@
 # Modus: CLI oder GUI
-mode = "CLI"
-
+mode : "CLI"

@@ -445,3 +445,10 @@
 2025-05-14 17:48:07,238:INFO:Bild geladen: f:\developers\HELLDIVE\images\recoiless.png
 2025-05-14 17:48:07,239:INFO:Bild geladen: f:\developers\HELLDIVE\images\OrbitalLaser.png
 2025-05-14 17:48:07,240:INFO:Bild geladen: f:\developers\HELLDIVE\images\RKTSentry.png
+2025-05-18 21:56:06,084:INFO:Programm gestartet
+2025-05-18 21:56:06,084:ERROR:This module is not meant to be imported
+2025-05-18 21:57:15,009:INFO:Programm gestartet
+2025-05-18 21:57:31,129:INFO:Programm gestartet
+2025-05-18 21:57:31,138:ERROR:Unbekannter Schnittstellenmodus.
+2025-05-18 21:59:26,416:INFO:Programm gestartet
+2025-05-18 21:59:26,416:ERROR:Unbekannter Schnittstellenmodus.

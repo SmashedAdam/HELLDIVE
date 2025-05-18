@@ -1,77 +1,50 @@
 # this is the v3 version of the helper
 # we made the backend first
+# he is the backend
+
 # then we made the frontend
 
 # Bibliotheken
-import tkinter
+
 import yaml
-import csv
 import logging
 import os
-import PIL
+
 
 # get the correct path
 absPathRoot = os.getcwd()
-imgPath = os.path.join(absPathRoot, "images")
+loadoutPath = os.path.join(absPathRoot, "loadout")
 configPath = os.path.join(absPathRoot, "config")
-#
+
+
+# config logging
 logging.basicConfig(
     level=logging.INFO,
     filename="log.log",
     format="%(asctime)s:%(levelname)s:%(message)s",
+    encoding="utf-8",
 )
 
 
 # config loader
-# load config from yaml file
+# Konfigurierung laden
 def loadConfig(cfgLocation):
-    with open("config.yml", "r") as f:
-        pass
+    with open(cfgLocation, "r", encoding="utf-8") as f:
+        Konfigurationen = yaml.safe_load(f)
+    return Konfigurationen
 
 
-# predefiened loadout loader
+# load pre-defined loadout
 def loadLoadout(loadoutLocation):
-    pass
-
-# image loader
-def load_image(name, size):
-    path = os.path.join(imgPath, name)
-    img = PIL.Image.open(path).resize(size)
-    logging.info(f"""Bild geladen: {path}""")
-    return PIL.ImageTk.PhotoImage(img)
-
-
-# Titelbildschirm
-def titleScreen():
-    pass # TODO: implement title screen using tkinter
-
-
-def getEnemyType(mode):
-    if mode == "CLI":
-        pass
-    elif mode == "GUI":
-        pass
-    else:
-        logging.log(logging.ERROR, "Fehler: Ungültiger Modus ausgewählt, konfigutation nicht möglich")
-    
-def getDifficulty(mode):
-    if mode == "CLI":
-        pass
-    elif mode == "GUI":
-        pass
-    else:
-        logging.log(logging.ERROR, "Fehler: Ungültiger Modus ausgewählt, konfigutation nicht möglich")
-
-
-
-
-
+    with open(loadoutLocation, "r", encoding="utf-8") as f:
+        Ladeauswahl = yaml.safe_load(f)
+    return Ladeauswahl
 
 
 if __name__ == "__main__":  # run only if executed as script
-    titleScreen()
-    enemyType = getEnemyType()
-    difficulty = getDifficulty()
-    # TODO: implement main function.
+    conf = loadConfig("./config/config.yml")
+    loadout = loadLoadout("./config/loadout.yml")
+    # asks user for selected difficulty
+
 else:
     logging.log(logging.ERROR, "This module is not meant to be imported")
