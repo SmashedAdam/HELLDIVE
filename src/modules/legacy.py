@@ -41,6 +41,7 @@ def show_start_screen():
     panel.image = bg
     panel.pack()
 
+
     def enter():
         start.destroy()
         show_main_ui()
@@ -207,6 +208,10 @@ def show_main_ui():
     tk.Button(
         root, text="Schließen", command=root.destroy, bg="red", fg="white", font=14
     ).pack(pady=10)
+
+
+
+
 
 
 # angang fur start program
