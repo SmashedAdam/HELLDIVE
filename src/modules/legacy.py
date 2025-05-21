@@ -18,7 +18,7 @@ logging.info("Programm gestartet")
 
 
 # Relative path
-IMG_DIR = os.path.join(os.path.dirname(__file__), "images")
+IMG_DIR = os.path.join(os.path.dirname(__file__), "../images")
 
 
 # Eine Funktion für das Laden von Bildern
