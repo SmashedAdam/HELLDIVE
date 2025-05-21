@@ -32,7 +32,7 @@ else:
 
     elif config["mode"] == "GUI":
         print("MODUS: GUI")
-        with open("./modules/legacy.py") as file:
+        with open("./modules/alt.py") as file:
             exec(file.read())
     else:
         print("Unbekannte Modus wählte")
