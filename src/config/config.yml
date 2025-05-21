@@ -1,4 +1,4 @@
 # Modus: CLI oder GUI
-mode : "CLI"
+mode : "CLI" # GUI noch nicht verfügbar
 faction : ["Terminiden", "Roboter", "Illuminierten"]
 minDiff: 6

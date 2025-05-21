@@ -15,12 +15,24 @@ if __name__ != "__main__":
     print("FEHLER: Dieses Programm muss direkt ausgeführt werden!")
 else:
     if config["mode"] == "CLI":
+        print("MODUS: CLI")
         diff = int(input("Bitte geben Sie die Schwerigkeit ein: "))
-        faction = str(input("Bitte geben Sie die Fraktion ein: "))
+        print()
+        factionSelect = int(
+            input(
+                "Bitte geben Sie die Fraktion ein [Terminiden(1)/Roboter(2)/Illuminierten(3)]: "
+            )
+        )
+        print()
+        faction = config["faction"][factionSelect - 1]
         data = giveAdvice(diff, faction, configPath, loadoutPath)
         print("Empfohlene Waffen sind:")
         for v in data.values():
-            print(v)
-            
+            print(f"   - {v}")
+
+    elif config["mode"] == "GUI":
+        print("MODUS: GUI")
+        with open("./modules/legacy.py") as file:
+            exec(file.read())
     else:
-        pass
+        print("Unbekannte Modus wählte")
