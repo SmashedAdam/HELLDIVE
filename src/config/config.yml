@@ -1,4 +1,4 @@
 # Modus: CLI oder GUI
 mode : "CLI" # GUI noch nicht verfügbar
-faction : ["Terminiden", "Roboter", "Illuminierten"]
-minDiff: 6
+faction : ["Terminiden", "Roboter", "Illuminierten"] # Es gibt nur 3 Fraktionen in HELLDIVERS 2
+minDiff: 6 # minimale Schwierigkeitsgrad
