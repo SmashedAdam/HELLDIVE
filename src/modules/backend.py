@@ -7,8 +7,7 @@ import yaml
 import logging
 
 
-
-# config logging
+# logging konfig
 logging.basicConfig(
     level=logging.INFO,
     filename="log.log",
@@ -31,7 +30,7 @@ def loadLoadout(loadoutLocation):
     return Ladeauswahl
 
 
-def giveAdvice(diff, faction, confLoc, loadoutLoc):
+def giveAdvice(diff, faction, confLoc, loadoutLoc):  # Hauptfunktion
     """Schwierigkeitsgrad und Fraktion eingeben, empfohlene Ausrüstung zurückgeben
 
     Args:
@@ -39,10 +38,10 @@ def giveAdvice(diff, faction, confLoc, loadoutLoc):
         faction (str): feindliche Fraktion
 
     Returns:
-       dict : ein Wörterbuch, das 4 Ausstattungsoptionen enthält
+       dict : ein Wörterbuch, das 4 Ausstattungsoptionen enthält.
     """
-    conf = loadConfig(confLoc)
-    loadout = loadLoadout(loadoutLoc)
+    conf = loadConfig(confLoc)  # von config.yml Konfiguration laden
+    loadout = loadLoadout(loadoutLoc)  # von loadout.yml Ausrüstungen laden
     if diff > conf["minDiff"]:  # Schwerigkeit muss größer als minDiff
         if faction in conf["faction"]:
             advice = loadout[faction][f"{faction}1"]

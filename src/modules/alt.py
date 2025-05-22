@@ -21,7 +21,7 @@ logging.info("Programm gestartet")
 IMG_DIR = os.path.join(os.path.dirname(__file__), "../images")
 
 
-# Eine Funktion für das Laden von Bildern
+# Bilder mit PIL laden
 def load_image(name, size):
     path = os.path.join(IMG_DIR, name)
     img = Image.open(path).resize(size)
@@ -31,30 +31,29 @@ def load_image(name, size):
 
 # Titelbildschirm
 def show_start_screen():
-    start = tk.Toplevel()
-    start.title("Helldivers 2-Ausrüstungshelfer")
-    start.geometry("800x450")
-    start.resizable(False, False)
+    start = tk.Toplevel()  # ein neue Bildschrim
+    start.title("Helldivers 2-Ausrüstungshelfer")  # Fenstertitle
+    start.geometry("800x450")  # größe
+    start.resizable(False, False)  # größe festlegen lassen
 
-    bg = load_image("start_bg.jpeg", (800, 450))
-    panel = tk.Label(start, image=bg)
+    bg = load_image("start_bg.jpeg", (800, 450))  # Hintergrundbild laden
+    panel = tk.Label(start, image=bg)  # GUI initialisieren/bauen
     panel.image = bg
     panel.pack()
-
 
     def enter():
         start.destroy()
         show_main_ui()
 
-    start_btn = tk.Button(
+    start_btn = tk.Button(  # ein Taste zum Starten
         start,
-        text="Auswahlassistent starten",
+        text="Auswahlassistent starten",  # Textformatierung
         font=("Arial", 14),
         command=enter,
-        bg="black",
-        fg="white",
+        bg="black",  # Hintergrund: Schwarz
+        fg="white",  # Vordergrund: Weiß
     )
-    start_btn.place(x=280, y=380, width=220, height=40)
+    start_btn.place(x=280, y=380, width=220, height=40)  # die Position der Taste
     logging.info("Start-UI zeigten")
 
 
@@ -63,7 +62,7 @@ def show_main_ui():
     global enemy_type, difficulty, result_label, image_frame, loading_label, enemy_img_label
     logging.info("Main-UI wird gezeigt")
 
-    def update_enemy_img(event=None):
+    def update_enemy_img(event=None):  # Bilder zeigen
         sel = enemy_type.get()
         if sel == "Terminiden":
             img = load_image("zerg.png", (150, 150))
@@ -152,12 +151,14 @@ def show_main_ui():
             logging.error("unbekannter Feind")
             return
 
-        result_label.config(text="Empfohlene Waffen:\n" + ", ".join(weapon_output))
+        result_label.config(
+            text="Empfohlene Waffen:\n" + ", ".join(weapon_output)
+        )  # Ergebnis anzeigen
 
-        for widget in image_frame.winfo_children():
+        for widget in image_frame.winfo_children():  # TKinter-Fensterlogik
             widget.destroy()
 
-        for img_name in weapon_imgs:
+        for img_name in weapon_imgs:  # Waffensymbol anzeigen
             icon = load_image(img_name, (64, 64))
             lbl = tk.Label(image_frame, image=icon, bg="black")
             lbl.image = icon
@@ -208,10 +209,6 @@ def show_main_ui():
     tk.Button(
         root, text="Schließen", command=root.destroy, bg="red", fg="white", font=14
     ).pack(pady=10)
-
-
-
-
 
 
 # angang fur start program
