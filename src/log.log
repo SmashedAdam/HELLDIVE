@@ -456,3 +456,43 @@
 2025-05-19 00:00:37,244:INFO:VorschlÃ¤ge genertiert.
 2025-05-19 00:00:42,182:ERROR:Schwierigkeitsgrad zu niedrig.
 2025-05-19 00:00:42,182:INFO:VorschlÃ¤ge genertiert.
+2025-05-22 08:45:00,274:INFO:Programm gestartet
+2025-05-22 08:45:00,394:INFO:Bild geladen: f:\developers\HELLDIVE\src\modules\../images\start_bg.jpeg
+2025-05-22 08:45:00,407:INFO:Start-UI zeigten
+2025-05-22 08:45:05,999:INFO:Main-UI wird gezeigt
+2025-05-22 08:45:06,047:INFO:Bild geladen: f:\developers\HELLDIVE\src\modules\../images\zerg.png
+2025-05-22 08:45:06,058:INFO:Feind auswählten
+2025-05-22 08:45:09,896:WARNING:Schwierigkeitsgrad zu hoch
+2025-05-22 08:45:13,749:WARNING:Schwierigkeitsgrad zu niedrig
+2025-05-22 08:45:21,567:ERROR:FEHLER: ungültige Nummer
+2025-05-22 08:45:26,423:ERROR:FEHLER: ungültige Nummer
+2025-05-22 08:45:28,873:WARNING:Schwierigkeitsgrad zu niedrig
+2025-05-22 08:45:31,294:WARNING:Schwierigkeitsgrad zu hoch
+2025-05-22 08:45:45,024:INFO:Programm gestartet
+2025-05-22 08:45:45,138:INFO:Bild geladen: f:\developers\HELLDIVE\src\modules\../images\start_bg.jpeg
+2025-05-22 08:45:45,149:INFO:Start-UI zeigten
+2025-05-22 08:55:30,305:INFO:Main-UI wird gezeigt
+2025-05-22 08:55:30,340:INFO:Bild geladen: f:\developers\HELLDIVE\src\modules\../images\zerg.png
+2025-05-22 08:55:30,347:INFO:Feind auswählten
+2025-05-22 08:55:35,797:INFO:Programm gestartet
+2025-05-22 08:55:35,941:INFO:Bild geladen: f:\developers\HELLDIVE\src\modules\../images\start_bg.jpeg
+2025-05-22 08:55:35,954:INFO:Start-UI zeigten
+2025-05-22 09:02:50,949:INFO:Main-UI wird gezeigt
+2025-05-22 09:02:50,990:INFO:Bild geladen: f:\developers\HELLDIVE\src\modules\../images\zerg.png
+2025-05-22 09:02:51,001:INFO:Feind auswählten
+2025-05-22 09:03:21,542:INFO:Bild geladen: f:\developers\HELLDIVE\src\modules\../images\robot.png
+2025-05-22 09:03:21,543:INFO:Feind auswählten
+2025-05-22 09:03:33,468:INFO:Bild geladen: f:\developers\HELLDIVE\src\modules\../images\ATEmplacement.png
+2025-05-22 09:03:33,470:INFO:Bild geladen: f:\developers\HELLDIVE\src\modules\../images\recoiless.png
+2025-05-22 09:03:33,470:INFO:Bild geladen: f:\developers\HELLDIVE\src\modules\../images\OrbitalLaser.png
+2025-05-22 09:03:33,471:INFO:Bild geladen: f:\developers\HELLDIVE\src\modules\../images\RKTSentry.png
+2025-05-22 09:07:03,944:INFO:Bild geladen: f:\developers\HELLDIVE\src\modules\../images\zerg.png
+2025-05-22 09:07:03,945:INFO:Feind auswählten
+2025-05-22 09:07:06,017:INFO:Bild geladen: f:\developers\HELLDIVE\src\modules\../images\stalwart.png
+2025-05-22 09:07:06,019:INFO:Bild geladen: f:\developers\HELLDIVE\src\modules\../images\Maschinengewehr-Geschütz.png
+2025-05-22 09:07:06,020:INFO:Bild geladen: f:\developers\HELLDIVE\src\modules\../images\napalm.png
+2025-05-22 09:07:06,020:INFO:Bild geladen: f:\developers\HELLDIVE\src\modules\../images\bomb500.png
+2025-05-22 09:07:07,042:INFO:Bild geladen: f:\developers\HELLDIVE\src\modules\../images\stalwart.png
+2025-05-22 09:07:07,044:INFO:Bild geladen: f:\developers\HELLDIVE\src\modules\../images\Maschinengewehr-Geschütz.png
+2025-05-22 09:07:07,045:INFO:Bild geladen: f:\developers\HELLDIVE\src\modules\../images\napalm.png
+2025-05-22 09:07:07,045:INFO:Bild geladen: f:\developers\HELLDIVE\src\modules\../images\bomb500.png
