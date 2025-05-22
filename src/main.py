@@ -8,7 +8,7 @@ loadoutPath = os.path.join(absPathRoot, "config", "loadout.yml")
 configPath = os.path.join(absPathRoot, "config", "config.yml")
 
 
-config = loadConfig(configPath) # Konfiguration aus YAML-Datei laden
+config = loadConfig(configPath)  # Konfiguration aus YAML-Datei laden
 
 
 if __name__ != "__main__":  # Es muss im interaktiven Modus ausgeführt werden
@@ -31,8 +31,6 @@ else:
             print(f"   - {v}")  # besser visualle Wirkung
 
     elif config["mode"] == "GUI":
-        print("MODUS: GUI")
-        with open("./modules/alt.py") as file:
-            exec(file.read())  # die unabhängige Version laufen
+        pass  # muss man noch etwas zu entwickeln
     else:
         print("Unbekannte Modus wählte")
