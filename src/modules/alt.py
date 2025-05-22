@@ -45,7 +45,7 @@ def show_start_screen():
         start.destroy()
         show_main_ui()
 
-    start_btn = tk.Button(  # ein Taste zum Starten
+    start_btn = tk.Button(  # eine Taste zum Starten
         start,
         text="Auswahlassistent starten",  # Textformatierung
         font=("Arial", 14),
@@ -76,7 +76,7 @@ def show_main_ui():
         enemy_img_label.image = img
         logging.info("Feind auswählten")
 
-    def on_submit():
+    def on_submit():  # analysieren machen
         enemy = enemy_type.get()
         try:
             diff = int(difficulty.get())
